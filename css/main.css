@@ -967,6 +967,7 @@ ul.about {
 
 .widget-profil  p {
     border-left: 0px;
+    text-align: center;
 }
 
 .widget-profil #profile_desc
@@ -983,6 +984,7 @@ ul.about {
 .widget-profil #profile_social
 {
     padding-top: 15px;
+    text-align: center;
 }
 
 #profile_social a{
@@ -995,8 +997,9 @@ ul.about {
     border-style: solid;
     text-align: center;
     font-size: 24px;
-    float: left;
-    display: block;
+    /* float: left;
+    display: block; */
+    display: inline-block;
     color : #fff;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
@@ -1460,7 +1463,7 @@ ul.about {
     border-bottom: none;
 }
 .border-list {
-    width: 80%;
+    /*width: 80%;*/
     margin: auto;
     margin-top: 30px;
 }
@@ -2562,7 +2565,7 @@ ul.info-post li {
 @media screen and (max-width: 1200px) {
 
     ul.about li span.value {
-        width: 196px;
+        width: 176px;
     }
 }
 

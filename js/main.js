@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
         $('#spinner').fadeOut(200);
         $('#preloader').delay(200).fadeOut('slow');
         $('.wrapper').fadeIn(200);
-        $('#custumize-style').fadeIn(200);
+        /*$('#custumize-style').fadeIn(200);*/
     });
 
     /* ---------------------------------------------------------------------- */
